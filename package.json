@@ -1,18 +1,26 @@
 {
   "name": "uniBrowser",
   "scripts": {
-    "start": "node src/index"
+    "start": "node src/index",
+    "test": "mocha"
   },
   "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
     "debug": "~2.2.0",
-    "mocha": "5.2.0",
-    "chai": "4.2.0",
-    "sinon": "6.3.5",
+    "expect": "^23.6.0",
+    "express": "~4.14.0",
     "js-logger": "1.4.1",
     "less-middleware": "3.0.1",
-    "express": "~4.14.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.11.13",
-    "node-schedule": "^1.2.5"
+    "node-schedule": "^1.2.5",
+    "sinon": "6.3.5",
+    "superagent": "^4.0.0-beta.5",
+    "supertest": "^3.3.0"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "chai": "4.2.0"
   }
 }
